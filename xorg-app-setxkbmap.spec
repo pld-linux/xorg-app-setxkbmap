@@ -1,5 +1,3 @@
-# $Rev: 3364 $, $Date: 2005-08-27 17:42:47 $
-#
 Summary:	setxkbmap application
 Summary(pl):	Aplikacja setxkbmap
 Name:		xorg-app-setxkbmap
@@ -15,10 +13,7 @@ BuildRequires:	automake
 BuildRequires:	xorg-lib-libxkbfile-devel
 BuildRequires:	xorg-util-util-macros
 BuildRequires:	pkgconfig >= 0.19
-BuildRoot:	%{tmpdir}/setxkbmap-%{version}-root-%(id -u -n)
-
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 setxkbmap application.
@@ -26,10 +21,8 @@ setxkbmap application.
 %description -l pl
 Aplikacja setxkbmap.
 
-
 %prep
 %setup -q -n setxkbmap-%{version}
-
 
 %build
 %{__aclocal}
@@ -40,17 +33,14 @@ Aplikacja setxkbmap.
 
 %{__make}
 
-
 %install
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-
 %clean
 rm -rf $RPM_BUILD_ROOT
-
 
 %files
 %defattr(644,root,root,755)
