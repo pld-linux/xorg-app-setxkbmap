@@ -1,4 +1,4 @@
-# $Rev: 3364 $, $Date: 2005-08-15 12:17:57 $
+# $Rev: 3364 $, $Date: 2005-08-27 17:42:47 $
 #
 Summary:	setxkbmap application
 Summary(pl):	Aplikacja setxkbmap
@@ -14,7 +14,7 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	xorg-lib-libxkbfile-devel
 BuildRequires:	xorg-util-util-macros
-BuildRequires:	pkg-config
+BuildRequires:	pkgconfig >= 0.19
 BuildRoot:	%{tmpdir}/setxkbmap-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
