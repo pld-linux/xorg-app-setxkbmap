@@ -1,12 +1,12 @@
 Summary:	setxkbmap application
 Summary(pl):	Aplikacja setxkbmap
 Name:		xorg-app-setxkbmap
-Version:	1.0.2
+Version:	1.0.3
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/setxkbmap-%{version}.tar.bz2
-# Source0-md5:	0316b2ab6fea88ed76d231c3b47544d8
+# Source0-md5:	2b53542095a35a8a5731164118643883
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
