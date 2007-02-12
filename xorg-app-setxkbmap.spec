@@ -1,5 +1,5 @@
 Summary:	setxkbmap application
-Summary(pl.UTF-8):   Aplikacja setxkbmap
+Summary(pl.UTF-8):	Aplikacja setxkbmap
 Name:		xorg-app-setxkbmap
 Version:	1.0.3
 Release:	1
