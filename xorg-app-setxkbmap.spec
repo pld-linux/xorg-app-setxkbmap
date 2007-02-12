@@ -1,5 +1,5 @@
 Summary:	setxkbmap application
-Summary(pl):	Aplikacja setxkbmap
+Summary(pl.UTF-8):   Aplikacja setxkbmap
 Name:		xorg-app-setxkbmap
 Version:	1.0.3
 Release:	1
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 setxkbmap application.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja setxkbmap.
 
 %prep
