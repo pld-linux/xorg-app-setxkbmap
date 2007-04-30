@@ -1,5 +1,5 @@
-Summary:	setxkbmap application
-Summary(pl.UTF-8):	Aplikacja setxkbmap
+Summary:	setxkbmap application - set the keyboard using the X Keyboard Extension
+Summary(pl.UTF-8):	Aplikacja setxkbmap - konfiguracja klawiatury przy użyciu rozszerzenia X Keyboard
 Name:		xorg-app-setxkbmap
 Version:	1.0.3
 Release:	1
@@ -16,10 +16,18 @@ BuildRequires:	xorg-util-util-macros >= 0.99.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-setxkbmap application.
+The setxkbmap command maps the keyboard to use the layout determined
+by the options specified on the command line.
+
+An XKB keymap is constructed from a number of components which are
+compiled only as needed.
 
 %description -l pl.UTF-8
-Aplikacja setxkbmap.
+Polecenie setxkbmap odwzorowuje klawiaturę zgodnie z układem
+określonym opcjami podanymi z linii poleceń.
+
+Mapa klawiatury XKB jest konstruowana z wielu składników, które są
+kompilowane tylko w razie potrzeby.
 
 %prep
 %setup -q -n setxkbmap-%{version}
