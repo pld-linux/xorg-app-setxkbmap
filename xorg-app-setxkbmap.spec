@@ -1,12 +1,12 @@
 Summary:	setxkbmap application - set the keyboard using the X Keyboard Extension
 Summary(pl.UTF-8):	Aplikacja setxkbmap - konfiguracja klawiatury przy użyciu rozszerzenia X Keyboard
 Name:		xorg-app-setxkbmap
-Version:	1.0.3
+Version:	1.0.4
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/setxkbmap-%{version}.tar.bz2
-# Source0-md5:	2b53542095a35a8a5731164118643883
+# Source0-md5:	6fab3bb176be9e510c5613d054ef1ca4
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
